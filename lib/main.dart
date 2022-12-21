@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:musicstore/Screen/file_upload/fileupload.dart';
 
 import 'package:musicstore/Sidebar.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: FileUpload(),//FileUpload(),//LoginScreen(),//add here view 1st
     );
   }
 }
